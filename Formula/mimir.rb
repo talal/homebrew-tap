@@ -1,9 +1,9 @@
 class Mimir < Formula
-  desc "A fast and minimal prompt for Bash and Zsh"
+  version "2.0.0"
+  desc "A fast and minimal shell prompt"
   homepage "https://github.com/talal/mimir"
-  url "https://github.com/talal/mimir/releases/download/v1.2.0/mimir-1.2.0-darwin_amd64.tar.gz"
-  version "1.2.0"
-  sha256 "d9f1dd1277ce28c44eca1ebb65f5a5eeb91e49b6bfd43ff49867b8934979b165"
+  url "https://github.com/talal/mimir/releases/download/v#{version}/mimir-#{version}-darwin_amd64.tar.gz"
+  sha256 "950fa45bfd38e3b67592b1d674f44db5ba189e6fb110f19fa0abc5bb17c15384"
 
   def install
     bin.install "mimir"
