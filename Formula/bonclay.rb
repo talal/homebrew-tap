@@ -3,7 +3,6 @@ class Bonclay < Formula
   desc "A fast and minimal backup tool"
   homepage "https://github.com/talal/bonclay"
   version "1.1.1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/talal/bonclay/releases/download/v1.1.1/bonclay-1.1.1-darwin-amd64.tar.gz"
