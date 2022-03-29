@@ -1,6 +1,23 @@
 # homebrew-tap
 
-Formulae:
+## Installation
 
-- [Bonclay](https://github.com/talal/bonclay)
-- [Mímir](https://github.com/talal/mimir)
+```
+brew tap talal/homebrew-tap
+```
+
+## Usage
+
+```
+brew install <formula-name>
+```
+
+## Formulae
+
+| Name | Description |
+| --- | --- |
+| `iosevka-ss08` | [Iosevka](iosevka) is an open-source typeface family designed for writing code, using in terminals, and preparing technical documents. |
+
+[bonclay]: https://github.com/talal/bonclay
+[mimir]: https://github.com/talal/mimir
+[iosevka]: https://github.com/be5invis/Iosevka
