@@ -16,7 +16,7 @@ brew install <formula-name>
 
 | Name | Description |
 | --- | --- |
-| `iosevka-ss08` | [Iosevka](iosevka) is an open-source typeface family designed for writing code, using in terminals, and preparing technical documents. |
+| `font-iosevka-ss08` | [Iosevka](iosevka) is an open-source typeface family designed for writing code, using in terminals, and preparing technical documents. |
 
 [bonclay]: https://github.com/talal/bonclay
 [mimir]: https://github.com/talal/mimir

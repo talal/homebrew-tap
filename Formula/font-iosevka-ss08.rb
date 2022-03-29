@@ -1,4 +1,4 @@
-class IosevkaSs08 < Formula
+class FontIosevkaSs08 < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   url "https://github.com/be5invis/Iosevka/releases/download/v15.1.0/ttc-iosevka-ss08-15.1.0.zip"
