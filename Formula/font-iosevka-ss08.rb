@@ -12,7 +12,8 @@ class FontIosevkaSs08 < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     def install
-      path = "/home/talal/.local/share/fonts/Iosevka/"
+      user = ENV["USER"]
+      path = "/home/#{user}/.local/share/fonts/Iosevka/"
       mkdir_p path, verbose: true
       cp Dir.glob("iosevka*.ttc"), path, verbose: true
 
