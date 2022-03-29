@@ -16,7 +16,7 @@ class FontIosevkaSs08 < Formula
       mkdir_p path, verbose: true
       cp Dir.glob("iosevka*.ttc"), path, verbose: true
 
-      # I have to add a bogus binary other Homebrew complains
+      # I have to add a bogus binary otherwise Homebrew complains
       #   Error: Empty installation
       bin.install "iosevka-ss08-regular.ttc" => "iosevka-this-does-not-work"
     end
