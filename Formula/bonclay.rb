@@ -4,7 +4,7 @@ class Bonclay < Formula
   homepage "https://github.com/talal/bonclay"
   version "1.1.1"
 
-  deprecate! date: "2021-07-02", because: :repo_archived
+  disable! date: "2021-07-02", because: :repo_archived
 
   if OS.mac?
     url "https://github.com/talal/bonclay/releases/download/v1.1.1/bonclay-1.1.1-darwin-amd64.tar.gz"
