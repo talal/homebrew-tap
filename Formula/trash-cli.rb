@@ -12,7 +12,7 @@ class TrashCli < Formula
     strategy :github_latest
   end
 
-  depends_on "node" => :build
+  depends_on "node"
 
   def install
     Language::Node.setup_npm_environment
