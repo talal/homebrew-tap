@@ -6,19 +6,20 @@ class TrashCli < Formula
   url "https://github.com/sindresorhus/trash-cli/archive/refs/tags/v5.0.0.tar.gz"
   sha256 "a5ba8ddc1a9a670c2af5e679e0c49cc56779032996842e2cd137a2529d6c1047"
   license "MIT"
+  revision 2
 
   livecheck do
     url :stable
     strategy :github_latest
   end
 
-  depends_on "node"
+  depends_on "node@16"
 
   def install
     Language::Node.setup_npm_environment
 
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
-    bin.install_symlink Dir["#{libexec}/bin/*"]
+    (bin/"trash").write_env_script libexec/"bin/trash", PATH: "#{Formula["node@16"].opt_bin}:$PATH"
   end
 
   test do
