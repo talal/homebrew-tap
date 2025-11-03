@@ -1,16 +1,19 @@
 # homebrew-tap
 
-This repository contains Homebrew formulae for my projects and tools that I use which are
-not available in the Homebrew core tap.
+## How do I install these packages?
 
-## Install
+`brew install talal/tap/<formula>`
 
-```
-brew tap talal/tap
+Or `brew install --cask talal/tap/<cask>`
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "talal/tap"
+brew "<formula>"
+cask "<cask>"
 ```
 
-## Usage
+## Documentation
 
-```
-brew install talal/tap/<formula-name>
-```
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
